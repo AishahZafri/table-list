@@ -1,0 +1,28 @@
+table, th, tr, td
+	{
+		border:1px blue;
+		border-collapse: collapse;
+		padding: 10px;
+	}
+
+tr
+	{
+		text-align: center;
+	}
+
+tr:nth-child(even)
+	{
+		background-color: skyblue;
+	}
+tr:nth-child(odd)
+	{
+		background-color: lightgrey;
+	}
+th
+	{
+		background-color: blue;
+	}
+tr:hover
+	{
+		background-color: yellow;
+	}
